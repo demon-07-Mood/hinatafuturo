@@ -53,10 +53,8 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# --- CREDENCIALES ---
-ID_CORRECTO = (
-    "15/10/2000"  # Puedes cambiar la fecha de nacimiento si lo deseas
-)
+# --- CREDENCIALES ACTUALIZADAS ---
+ID_CORRECTO = "11/10/2013"
 PASSWORD_CORRECTO = "Hinata"
 
 # --- RUTAS DE LOS ARCHIVOS LOCALES ---
@@ -151,11 +149,14 @@ else:
           use_container_width=True,
       )
 
-    st.markdown("### Subtítulo: El primer capítulo")
+    st.markdown("### El inicio de nuestro destino juntos")
     st.write(
-        "Aquí va el texto explicativo de la sección de Inicio. Puedes contar"
-        " cómo comenzó todo, las primeras conversaciones y los primeros"
-        " detalles especiales."
+        "Mi Hinata, cada segundo a tu lado se siente como el comienzo de algo"
+        " mágico. Aún nos queda un mundo entero por recorrer, pero saber que"
+        " existes y que nuestros caminos se cruzaron es lo más hermoso que me"
+        " ha pasado. Te amo con todas mis fuerzas, te pienso en cada instante"
+        " y sé que este es apenas el primer capítulo de nuestra gran"
+        " historia."
     )
 
     st.write("---")
@@ -175,11 +176,13 @@ else:
     with col_vid2:
       st.video(VIDEO_DESARROLLO)
 
-    st.markdown("### Subtítulo: Creciendo juntos")
+    st.markdown("### Escribiendo nuestra historia paso a paso")
     st.write(
-        "Aquí va el texto explicativo del Desarrollo. Describe los momentos"
-        " más importantes que han compartido, los aprendizajes y las"
-        " aventuras vividas."
+        "Mi amor, cada risa, cada momento compartido y cada detalle nuestro va"
+        " construyendo lo que somos. No importa los retos que vengan, me"
+        " encanta saber que estamos aprendiendo y creciendo juntos. Eres mi"
+        " refugio, mi paz y la dueña de todos mis pensamientos. Te amo hoy,"
+        " mañana y siempre, mi preciosa Hinata."
     )
 
     st.write("---")
@@ -203,11 +206,13 @@ else:
           use_container_width=True,
       )
 
-    st.markdown("### Subtítulo: Lo que viene por delante")
+    st.markdown("### Un futuro infinito a tu lado")
     st.write(
-        "Aquí va el texto de la sección Final. Dedícale tus palabras sobre los"
-        " planes a futuro, los sueños por cumplir y todo lo que deseas construir"
-        " a su lado."
+        "Si esto es lo bonito del camino, no puedo imaginar lo maravilloso que"
+        " será nuestro mañana. Mi única meta es seguir construyendo este"
+        " hermoso futuro a tu lado, cuidándote y amándote como mereces. Eres el"
+        " sueño más lindo hecho realidad, mi Hinata, y te prometo que lo mejor"
+        " de nuestra historia todavía está por escribirse."
     )
 
     st.write("---")
